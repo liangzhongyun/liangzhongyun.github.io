@@ -1,42 +1,77 @@
 [
 {
-	"uri": "https://liangzhongyun.github.io/basics/",
-	"title": "Basics",
-	"tags": [],
-	"description": "",
-	"content": "Chapter X Some Chapter title Lorem Ipsum.\n"
-},
-{
-	"uri": "https://liangzhongyun.github.io/",
-	"title": "Hugo Site",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://liangzhongyun.github.io/basics/second-content/",
-	"title": "Second Content",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://liangzhongyun.github.io/basics/first-content/",
-	"title": "First Content",
-	"tags": [],
+	"uri": "https://liangzhongyun.github.io/kaoqin/1.1/",
+	"title": "基础考勤",
+	"tags": ["入离职", "人员档案"],
 	"description": "",
 	"content": "h1 Test h2 test h3 test h4 test "
 },
 {
-	"uri": "https://liangzhongyun.github.io/categories/",
-	"title": "Categories",
+	"uri": "https://liangzhongyun.github.io/kaoqin/1.2/",
+	"title": "报表",
+	"tags": ["报表", "原始记录"],
+	"description": "",
+	"content": "h1 Test h2 test h3 test h4 test "
+},
+{
+	"uri": "https://liangzhongyun.github.io/",
+	"title": "Chapter 0.",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 0 Step1 "
+},
+{
+	"uri": "https://liangzhongyun.github.io/kaoqin/",
+	"title": "Chapter 1.",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 1.考勤系统  登陆地址 http://192.168.1.222:8088  业务    基础考勤 报表 你猜才看     人员入职 数据计算 你猜才看   离职处理 考勤表表 你猜才看   人员信息修改 原始记录 你猜才看     流程 graph LR\r入职--\u0026gt;档案\r档案--\u0026gt;指纹录入\r指纹录入--\u0026gt;工号录入\r工号录入--\u0026gt;导出档案\r导出档案--\u0026gt;开通门禁\r\u0026amp;\nsequenceDiagram\rparticipant 人事部\rparticipant 信息部\r人事部-新员工: 指纹录入\r新员工-人事部: Done\r人事部-信息部: 开通门禁\rNote right of 信息部: 您的门禁已开通 有问题随时找我...\r信息部-新员工: Done\r信息部--人事部: Done\rloop Response\r人事部--新员工: 持续优化\rend\r\r 等待完善   接入人事流程数据     ZKTime时间精细化管理平台以时间管理作为专业管理方向，环绕六大维度，结合互联网应用三大核心要素：时间、计算、存储，将生物识别技术融入软硬件，为企业带来高安全、实人化、高效率、智慧规范的全新的组织运营管控体验,三者结合提高平台的企业管理实力,实现企业/单位的精细化运营管理。\n  ZKteco FAQ https://www.zkteco.com/cn/zk_faq.html\n "
+},
+{
+	"uri": "https://liangzhongyun.github.io/oa/",
+	"title": "Chapter 2.",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 2 "
+},
+{
+	"uri": "https://liangzhongyun.github.io/tags/",
+	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
 },
 {
-	"uri": "https://liangzhongyun.github.io/tags/",
-	"title": "Tags",
+	"uri": "https://liangzhongyun.github.io/tags/%E4%BA%BA%E5%91%98%E6%A1%A3%E6%A1%88/",
+	"title": "人员档案",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://liangzhongyun.github.io/tags/%E5%85%A5%E7%A6%BB%E8%81%8C/",
+	"title": "入离职",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://liangzhongyun.github.io/tags/%E5%8E%9F%E5%A7%8B%E8%AE%B0%E5%BD%95/",
+	"title": "原始记录",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://liangzhongyun.github.io/tags/%E6%8A%A5%E8%A1%A8/",
+	"title": "报表",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://liangzhongyun.github.io/categories/",
+	"title": "Categories",
 	"tags": [],
 	"description": "",
 	"content": ""

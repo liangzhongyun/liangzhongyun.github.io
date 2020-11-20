@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Chapter 0. - Hugo Site</title>
+    <title>Chapter 1. - Hugo Site</title>
 
     
     <link href="/css/nucleus.css?1605852915" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/kaoqin/">
     <nav id="sidebar" class="">
 
 
@@ -96,8 +96,8 @@
   
     
     <li data-nav-id="/kaoqin/" title="Chapter 1." class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/kaoqin/">
@@ -219,6 +219,50 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="http://lansion.yunkecang.comkaoqin/_index.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='/'>Chapter 0.</a> > Chapter 1.
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
@@ -230,15 +274,89 @@
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>
 
- 
-<h3 id="chapter-0">Chapter 0</h3>
-<h2 id="step1">Step1</h2>
+
+	<h3 id="chapter-1考勤系统">Chapter 1.考勤系统</h3>
+<hr>
+<h4 id="登陆地址-http19216812228088http19216812228088">登陆地址 <a href="http://192.168.1.222:8088">http://192.168.1.222:8088</a></h4>
+<hr>
+<h4 id="业务">业务</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">基础考勤</th>
+<th style="text-align:center">报表</th>
+<th style="text-align:center">你猜才看</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">人员入职</td>
+<td style="text-align:center">数据计算</td>
+<td style="text-align:center">你猜才看</td>
+</tr>
+<tr>
+<td style="text-align:center">离职处理</td>
+<td style="text-align:center">考勤表表</td>
+<td style="text-align:center">你猜才看</td>
+</tr>
+<tr>
+<td style="text-align:center">人员信息修改</td>
+<td style="text-align:center">原始记录</td>
+<td style="text-align:center">你猜才看</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h4 id="流程">流程</h4>
+<pre><code class="language-mermaid" data-lang="mermaid">graph LR
+入职--&gt;档案
+档案--&gt;指纹录入
+指纹录入--&gt;工号录入
+工号录入--&gt;导出档案
+导出档案--&gt;开通门禁
+</code></pre><p>&amp;</p>
+
+<div class="mermaid" align="center">
+sequenceDiagram
+    participant 人事部
+    participant 信息部
+    人事部->>新员工: 指纹录入
+    新员工->>人事部: Done
+
+    人事部->>信息部: 开通门禁
+    Note right of 信息部: 您的门禁已开通 <br/>有问题随时找我...
+    信息部->>新员工: Done
+    信息部-->>人事部: Done
+    loop Response
+        人事部-->新员工: 持续优化
+    end
+</div>
+
+<hr>
+<h4 id="等待完善">等待完善</h4>
+<ul>
+<li>
+<h5 id="接入人事流程数据">接入人事流程数据</h5>
+</li>
+</ul>
+<hr>
+<p><img src="http://lansion.yunkecang.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1).png" alt=""></p>
+<blockquote>
+<p>ZKTime时间精细化管理平台以时间管理作为专业管理方向，环绕六大维度，结合互联网应用三大核心要素：时间、计算、存储，将生物识别技术融入软硬件，为企业带来高安全、实人化、高效率、智慧规范的全新的组织运营管控体验,三者结合提高平台的企业管理实力,实现企业/单位的精细化运营管理。</p>
+</blockquote>
+<blockquote>
+<p>ZKteco FAQ <a href="https://www.zkteco.com/cn/zk_faq.html">https://www.zkteco.com/cn/zk_faq.html</a></p>
+</blockquote>
+
+
+
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
         
             </div> 
         
@@ -272,8 +390,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -287,6 +403,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -371,4 +490,3 @@
 
   </body>
 </html>
-
